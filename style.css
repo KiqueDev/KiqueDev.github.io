@@ -1,0 +1,275 @@
+@font-face{
+	font-family: "customFont";
+	src: url('assets/fonts/Akashi.ttf');
+}
+@font-face{
+	font-family: "customFace";
+	src: url('assets/images/logos/sosa-regular-webfont.eot');
+	src: url('assets/images/logos/sosa-regular-webfont.svg');
+	src: url('assets/images/logos/sosa-regular-webfont.ttf');
+	src: url('assets/images/logos/sosa-regular-webfont.woff');
+}
+/*/////////////////////////////////////////////*/
+/*/////////////////////////////////////////////*/
+/*AVAILABLE FOR HIRE CSS*/
+/*/////////////////////////////////////////////*/
+@import "compass";
+#hire {
+  left: -65px;
+  height: 30px;
+  top: 40px;
+  position: absolute;
+  text-decoration: none;
+  width: 250px;
+  /* Rotate div */
+	transform:rotate(-45deg);
+	-ms-transform:rotate(-45deg); /* IE 9 */
+	-webkit-transform:rotate(-45deg); /* Safari and Chrome */
+}
+#hire span{
+  background: black;
+  color: white;
+  font-size: 16px;
+  left: 0;
+  padding: 5px 0;
+  position: absolute;
+  text-align: center;
+  width: 250px;
+}
+/*/////////////////////////////////////////////*/
+/*/////////////////////////////////////////////*/
+/*RESPONSIVE CSS*/
+/*/////////////////////////////////////////////*/
+/*@media (min-width: 200px) {
+	#portafolio{
+		width:200px;
+		background-color: blue;
+	}
+}*/
+/*Small Screen*/
+@media (max-width: 550px) {
+	#portafolio{
+		width:220px !important;
+		height:880px !important;
+/*		background-color: blue!important;*/
+	}
+	.description{
+		height:350px !important;
+		/*	background-color: red;*/
+	}
+}
+@media (max-width: 760px) {
+	.dContainer{
+		width:100% !important;
+		height:200px !important;
+		/*	background-color: red;*/
+	}
+	.dLeft, .dRight{
+		margin: 0 auto;
+		float:none !important;
+		padding:10px !important;
+		width:75% !important;
+/*		line-height: 1.5;*/
+	/*	background-color: green;*/
+	}
+
+}
+/*Bigger Screen*/
+@media (min-width: 1200px) {
+	#portafolio{
+		width:900px !important;
+		height:200px !important;
+/*		background-color: blue!important;*/
+	}
+
+}
+body{
+	margin:0;
+	background: #333333;
+}
+/*/////////////////////////////////////////////*/
+/*/////////////////////////////////////////////*/
+/*SOCIAL BAR CSS*/
+/*/////////////////////////////////////////////*/
+.socialBar{
+	background-color: white;
+	width: 100%;
+	height: 60px;
+}
+[data-icon]:before { 
+  font-family: "customFace";
+  content: attr(data-icon); 
+  speak: none; 
+  font-weight: normal; 
+/*  line-height: 1; */
+  font-size:50px;
+  color:#333333;
+  -webkit-font-smoothing: antialiased; 
+}
+.socialIcon{
+	float:right;
+	padding-right:10px;
+	padding-left:10px;
+	padding-top:5px;
+	text-decoration:none !important;
+/*	width:50%;*/
+/*	height:100%;*/
+/*	background-color: green;*/
+}
+.socialIcon:hover, .pIcon:hover, .project:hover {
+  background-color: #c0c0c0;
+}
+/*/////////////////////////////////////////////*/
+/*/////////////////////////////////////////////*/
+/*HEADER CSS*/
+/*/////////////////////////////////////////////*/
+.header{
+	width:320px;
+	padding-top:20px;
+	padding-bottom:180px;
+	padding-left:10px;
+	padding-right:10px;
+	margin: 0 auto;
+	color:white;
+	text-align: center;
+/*	background-color: blue;*/
+}
+.title{
+	font-family: "customFont";
+	float:right;
+/*	background-color: red;*/
+}
+.me{
+	float:left;
+}
+.quote{
+	width:350px;
+	margin: 0 auto;
+	color:white;
+	text-align: center;
+	font-family: "customFont";
+	font-size:14px;
+/*	background-color: orange;*/
+}
+.polaroid{
+  position: relative;
+/*  width: 220px;*/
+}
+.polaroid img {
+  border: 5px solid #fff;
+  border-bottom: 45px solid #fff;
+  -webkit-box-shadow: 3px 3px 3px #777;
+	-moz-box-shadow: 3px 3px 3px #777;
+	box-shadow: 3px 3px 3px #777;
+}
+.polaroid p {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 0px;
+  font: 400 18px/1 'Kaushan Script', cursive;
+  color: #888;
+}
+
+.portafolioBtn{
+	margin:auto;
+	padding-top: 10px;
+	padding-bottom: 20px;
+/*	width:300px;*/
+/*	height:100px;*/
+	text-align: center;
+/*	background-color: red;*/
+}
+
+.pIcon{
+	font-family: "customFont";
+	text-decoration:none !important;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; /* future proofing */
+	-khtml-border-radius: 5px; /* for old Konqueror browsers */
+	padding-top:35px;
+	padding-bottom:15px;
+	padding-left:15px;
+	padding-right:15px;
+/*	padding:20px;*/
+	background-color: white;
+	color:#333333;
+}
+.description{
+	font-family: "customFont";
+	background-color: white;
+	padding-top:20px;
+/*	width:500px;*/
+	text-align: center;
+	color:black;
+}
+.dContainer{
+	margin:0 auto;
+	width:750px;
+	height:200px;
+	/*	background-color: red;*/
+}
+.dLeft, .dRight{
+	float:left;
+	width:50%;
+	line-height: 1.5;
+/*	background-color: green;*/
+}
+
+/*/////////////////////////////////////////////*/
+/*/////////////////////////////////////////////*/
+/*PORTAFOLIO CSS*/
+/*/////////////////////////////////////////////*/
+#portafolio{
+/*	background-color: white;*/
+	height:450px;
+	padding:20px;
+	margin:0 auto;
+	width:450px;
+/*	background-color: red;*/
+
+}
+.project{
+	font-family: "customFont";
+	text-decoration:none !important;
+	float:left;
+	background-color: white;
+	-moz-border-radius: 150px;
+	-webkit-border-radius: 150px;
+	border-radius: 150px; /* future proofing */
+	-khtml-border-radius: 150px; /* for old Konqueror browsers */
+	margin:20px; 
+/*	margin-top:10px;*/
+	padding: 30px;
+	width:120px;
+	height:120px;
+	text-align: center;
+  color:#333333;
+}
+
+.dev{
+	font-family: "customFont";
+/*	height:200px;
+	background-color: white;*/
+}
+.devHeader h2{
+	width:90%;
+	float:left;
+/*	background-color: red;*/
+}
+.devHeader .up{
+	text-decoration:none !important;
+	width:10%;
+	float:right;
+/*	background-color: blue;*/
+}
+.devHeader{
+	height:50px;
+	background-color: white;
+	text-align: center;
+	padding:5px;
+}
+.devBody{
+	height:600px;
+}
