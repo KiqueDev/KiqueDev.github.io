@@ -1,8 +1,8 @@
 KiqueDev.github.io
 ==================
 
-<h2>SORRY! Currently in Development...</h2> 
+<h3>SORRY! Currently in Development...</h3> 
 My Personal page.  
  
-Check me out @ https://KiqueDev.github.io  
+Check me out @ http://KiqueDev.github.io  
  
