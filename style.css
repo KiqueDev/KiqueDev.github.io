@@ -13,7 +13,6 @@
 /*/////////////////////////////////////////////*/
 /*AVAILABLE FOR HIRE CSS*/
 /*/////////////////////////////////////////////*/
-@import "compass";
 #hire {
   left: -65px;
   height: 30px;
@@ -53,25 +52,21 @@
 		height:880px !important;
 /*		background-color: blue!important;*/
 	}
-	.description{
-		height:350px !important;
-		/*	background-color: red;*/
+
+	.description .dContainer {
+	    padding: 0px 50px !important;
+	    column-count: 1 !important;
+	    -moz-column-count: 1 !important;
+	    -webkit-column-count: 1 !important;
+	    column-gap: 3em !important;
+	    -moz-column-gap: 3em !important;
+	    -webkit-column-gap: 3em !important ;
+	    max-width: 860px !important;
+	    margin: auto !important;
 	}
 }
 @media (max-width: 760px) {
-	.dContainer{
-		width:100% !important;
-		height:200px !important;
-		/*	background-color: red;*/
-	}
-	.dLeft, .dRight{
-		margin: 0 auto;
-		float:none !important;
-		padding:10px !important;
-		width:75% !important;
-/*		line-height: 1.5;*/
-	/*	background-color: green;*/
-	}
+
 
 }
 /*Bigger Screen*/
@@ -198,23 +193,29 @@ body{
 }
 .description{
 	font-family: "customFont";
-	background-color: white;
-	padding-top:20px;
-/*	width:500px;*/
-	text-align: center;
-	color:black;
+/*	background-color: white;*/
+	color:white;
+	width: 100%;
+  	padding: 30px 0px;
+
 }
-.dContainer{
-	margin:0 auto;
-	width:750px;
-	height:200px;
-	/*	background-color: red;*/
-}
-.dLeft, .dRight{
-	float:left;
-	width:50%;
+.description .dContainer{
+	margin:auto;
+	max-width: 920px;
+	column-count: 2;
+	-moz-column-count: 2;
+	-webkit-column-count: 2;
+	column-gap: 3em;
+	-moz-column-gap: 3em;
+	-webkit-column-gap: 3em;
+	padding: 10px 20px 40px 20px;
 	line-height: 1.5;
-/*	background-color: green;*/
+/*	background-color: red;*/
+}
+.dContainer p {
+  margin:auto;
+  margin-bottom: 15px;
+/*  background-color: blue;*/
 }
 
 /*/////////////////////////////////////////////*/
@@ -224,7 +225,9 @@ body{
 #portafolio{
 /*	background-color: white;*/
 	height:450px;
-	padding:20px;
+/*	padding:50px;*/
+	padding-top:50px;
+	padding-bottom:120px;
 	margin:0 auto;
 	width:450px;
 /*	background-color: red;*/
@@ -245,7 +248,7 @@ body{
 	width:120px;
 	height:120px;
 	text-align: center;
-  color:#333333;
+  	color:#333333;
 }
 
 .dev{
