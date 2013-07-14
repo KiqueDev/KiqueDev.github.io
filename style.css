@@ -47,12 +47,27 @@
 }*/
 /*Small Screen*/
 @media (max-width: 550px) {
+	#hire {
+	  height: 15px !important;
+	  width: 150px !important;
+	}
+	#hire span{
+	  font-size: 10px !important;
+	  width: 205px !important; 
+	}
+	.socialBar{
+		height: 38px !important;
+	}
 	#portafolio{
-		width:220px !important;
-		height:880px !important;
+		width:320px !important;
+		height:280px !important;
 /*		background-color: blue!important;*/
 	}
-
+	.project{
+		width:60px !important;
+		height:60px !important;
+		font-size:10px;
+	}
 	.description .dContainer {
 	    padding: 0px 50px !important;
 	    column-count: 1 !important;
@@ -63,6 +78,14 @@
 	    -webkit-column-gap: 3em !important ;
 	    max-width: 860px !important;
 	    margin: auto !important;
+	}
+	[data-icon]:before { 
+	  font-size:30px !important;
+	}
+
+	.devHeader .up{
+		padding-top: 10px !important;
+	/*	background-color: blue;*/
 	}
 }
 @media (max-width: 760px) {
@@ -92,14 +115,19 @@ body{
 	height: 60px;
 }
 [data-icon]:before { 
-  font-family: "customFace";
-  content: attr(data-icon); 
-  speak: none; 
-  font-weight: normal; 
-/*  line-height: 1; */
-  font-size:50px;
-  color:#333333;
-  -webkit-font-smoothing: antialiased; 
+	font-family: "customFace";
+	content: attr(data-icon); 
+	speak: none; 
+	font-weight: normal; 
+	/*  line-height: 1; */
+	font-size:50px;
+	color:#333333;
+	-webkit-font-smoothing: antialiased; 
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
 }
 .socialIcon{
 	float:right;
