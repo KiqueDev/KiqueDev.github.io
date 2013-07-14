@@ -56,7 +56,7 @@
 	  width: 205px !important; 
 	}
 	.socialBar{
-		height: 38px !important;
+		height: 48px !important;
 	}
 	#portafolio{
 		width:320px !important;
@@ -64,9 +64,9 @@
 /*		background-color: blue!important;*/
 	}
 	.project{
-		width:60px !important;
-		height:60px !important;
-		font-size:10px;
+		width:80px !important;
+		height:80px !important;
+		font-size:12px;
 	}
 	.description .dContainer {
 	    padding: 0px 50px !important;
@@ -80,12 +80,29 @@
 	    margin: auto !important;
 	}
 	[data-icon]:before { 
-	  font-size:30px !important;
+	  font-size:40px !important;
 	}
 
 	.devHeader .up{
 		padding-top: 10px !important;
 	/*	background-color: blue;*/
+	}
+
+	.kchatImg{
+		width:100px;
+		height:80px;
+	}
+
+	.quote{
+		width:300px !important;
+	/*	background-color: orange;*/
+	}
+
+	.project{
+		text-align:center;
+		margin:10px !important; 
+		padding: 30px !important;
+
 	}
 }
 @media (max-width: 760px) {
@@ -139,15 +156,19 @@ body{
 /*	height:100%;*/
 /*	background-color: green;*/
 }
-.socialIcon:hover, .pIcon:hover, .project:hover {
+.socialIcon:hover, .pIcon:hover, .project:hover, .liveBtn:hover {
   background-color: #c0c0c0;
 }
+.socialIcon:selection, .pIcon:selection, .project:selection, .liveBtn:selection {
+  border-style:none;
+}
+
 /*/////////////////////////////////////////////*/
 /*/////////////////////////////////////////////*/
 /*HEADER CSS*/
 /*/////////////////////////////////////////////*/
 .header{
-	width:320px;
+	width:305px;
 	padding-top:20px;
 	padding-bottom:180px;
 	padding-left:10px;
@@ -211,7 +232,7 @@ body{
 	-webkit-border-radius: 5px;
 	border-radius: 5px; /* future proofing */
 	-khtml-border-radius: 5px; /* for old Konqueror browsers */
-	padding-top:35px;
+	padding-top:25px;
 	padding-bottom:15px;
 	padding-left:15px;
 	padding-right:15px;
@@ -288,20 +309,55 @@ body{
 .devHeader h2{
 	width:90%;
 	float:left;
+	font-size:18px;
 /*	background-color: red;*/
 }
 .devHeader .up{
 	text-decoration:none !important;
 	width:10%;
 	float:right;
+	margin-top:-10px;
 /*	background-color: blue;*/
 }
 .devHeader{
-	height:50px;
+	height:45px;
 	background-color: white;
 	text-align: center;
 	padding:5px;
 }
 .devBody{
 	height:600px;
+	color:white;
+/*	margin-left:20px;
+	margin-right: 20px;*/
+	/*text-align: center;*/
+
+/*	background-color: red;*/
+/*	margin:0 auto;*/
+	width:100%;
+}
+.leftDevBody{
+	text-align: center;
+	width:50%;
+	float:left;
+/*	background-color: green*/
+}
+.rightDevBody{
+	margin-top: 30px;
+	width:50%;
+	float:left;
+/*	background-color: pink;*/
+}
+.hrefLink {
+	color: white;
+}
+.liveBtn {
+	text-decoration:none !important;
+	color:#333333;;
+	background-color:white;
+	padding:10px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; /* future proofing */
+	-khtml-border-radius: 5px; /* for old Konqueror browsers */
 }
