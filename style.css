@@ -104,6 +104,35 @@
 		padding: 30px !important;
 
 	}
+	/*DEV BODY IMAGES*/
+	.kchatImg{
+		width:220px !important;
+		height:150px !important;
+	}
+	.qrWifiImg, .gymPlannerImg{
+		width:100px !important;
+		height:100px !important;
+	}
+
+	/*BODY OF DEVELOPMENT*/
+	.devBody{
+		height:500px !important;
+	}
+	.leftDevBody{
+		margin:0 auto !important;
+/*		background-color: red;*/
+		float:none !important;
+		width:100% !important;
+	}
+	.rightDevBody{
+		margin:0 auto !important;
+		float:none !important;
+		width:80% !important;
+	/*	background-color: blue;*/
+	}
+	a.liveBtn {
+		text-align:center !important; 
+	}
 }
 @media (max-width: 760px) {
 
@@ -309,14 +338,14 @@ body{
 .devHeader h2{
 	width:90%;
 	float:left;
-	font-size:18px;
+	font-size:22px;
 /*	background-color: red;*/
 }
 .devHeader .up{
 	text-decoration:none !important;
 	width:10%;
 	float:right;
-	margin-top:-10px;
+	margin-top:-5px;
 /*	background-color: blue;*/
 }
 .devHeader{
@@ -326,7 +355,7 @@ body{
 	padding:5px;
 }
 .devBody{
-	height:600px;
+	height:350px;
 	color:white;
 /*	margin-left:20px;
 	margin-right: 20px;*/
@@ -336,6 +365,15 @@ body{
 /*	margin:0 auto;*/
 	width:100%;
 }
+/*IMAGE FOR DEFVBODY*/
+.kchatImg{
+	width:380px;
+	height:250px;
+}
+.qrWifiImg, .gymPlannerImg{
+	width:150px;
+	height:150px;
+}
 .leftDevBody{
 	text-align: center;
 	width:50%;
@@ -343,8 +381,9 @@ body{
 /*	background-color: green*/
 }
 .rightDevBody{
-	margin-top: 30px;
-	width:50%;
+	margin-top: 50px;
+	padding:5px;
+	width:40%;
 	float:left;
 /*	background-color: pink;*/
 }
@@ -361,3 +400,6 @@ body{
 	border-radius: 5px; /* future proofing */
 	-khtml-border-radius: 5px; /* for old Konqueror browsers */
 }
+/*#androidDev .devBody{
+	text-align: center;
+}*/
