@@ -88,7 +88,7 @@
 	/*	background-color: blue;*/
 	}
 
-	.kchatImg{
+	.kchatImg, .kProfilerImg{
 		width:100px;
 		height:80px;
 	}
@@ -105,7 +105,7 @@
 
 	}
 	/*DEV BODY IMAGES*/
-	.kchatImg{
+	.kchatImg, .kProfilerImg{
 		width:220px !important;
 		height:150px !important;
 	}
@@ -135,7 +135,15 @@
 	}
 }
 @media (max-width: 760px) {
-
+	/*DEV BODY IMAGES*/
+	.kchatImg, .kProfilerImg{
+		width:270px !important;
+		height:200px !important;
+	}
+	.bulletVideo{
+		width:340px !important;
+		height:260px !important;	
+	}
 
 }
 /*Bigger Screen*/
@@ -355,7 +363,7 @@ body{
 	padding:5px;
 }
 .devBody{
-	height:350px;
+	height:450px;
 	color:white;
 /*	margin-left:20px;
 	margin-right: 20px;*/
@@ -365,8 +373,9 @@ body{
 /*	margin:0 auto;*/
 	width:100%;
 }
+
 /*IMAGE FOR DEFVBODY*/
-.kchatImg{
+.kchatImg, .kProfilerImg{
 	width:380px;
 	height:250px;
 }
@@ -400,6 +409,3 @@ body{
 	border-radius: 5px; /* future proofing */
 	-khtml-border-radius: 5px; /* for old Konqueror browsers */
 }
-/*#androidDev .devBody{
-	text-align: center;
-}*/
