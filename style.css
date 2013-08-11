@@ -88,11 +88,6 @@
 	/*	background-color: blue;*/
 	}
 
-	.kchatImg, .kProfilerImg{
-		width:100px;
-		height:80px;
-	}
-
 	.quote{
 		width:300px !important;
 	/*	background-color: orange;*/
@@ -105,7 +100,7 @@
 
 	}
 	/*DEV BODY IMAGES*/
-	.kchatImg, .kProfilerImg{
+	.kchatImg, .kProfilerImg, .kiqueLoginImg{
 		width:220px !important;
 		height:150px !important;
 	}
@@ -134,9 +129,10 @@
 		text-align:center !important; 
 	}
 }
+/*Medium Screen*/
 @media (max-width: 760px) {
 	/*DEV BODY IMAGES*/
-	.kchatImg, .kProfilerImg{
+	.kchatImg, .kProfilerImg, .kiqueLoginImg{
 		width:270px !important;
 		height:200px !important;
 	}
@@ -159,6 +155,11 @@ body{
 	margin:0;
 	background: #333333;
 }
+
+/*/////////////////////////////////////////////////////////////////////////*/
+/*								GLOBAL CSS*/
+/*/////////////////////////////////////////////////////////////////////////*/
+
 /*/////////////////////////////////////////////*/
 /*/////////////////////////////////////////////*/
 /*SOCIAL BAR CSS*/
@@ -375,7 +376,7 @@ body{
 }
 
 /*IMAGE FOR DEFVBODY*/
-.kchatImg, .kProfilerImg{
+.kchatImg, .kProfilerImg, .kiqueLoginImg{
 	width:380px;
 	height:250px;
 }
