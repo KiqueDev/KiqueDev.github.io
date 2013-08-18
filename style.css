@@ -100,7 +100,7 @@
 
 	}
 	/*DEV BODY IMAGES*/
-	.kchatImg, .kProfilerImg, .kiqueLoginImg{
+	.webImg{
 		width:220px !important;
 		height:150px !important;
 	}
@@ -132,7 +132,7 @@
 /*Medium Screen*/
 @media (max-width: 760px) {
 	/*DEV BODY IMAGES*/
-	.kchatImg, .kProfilerImg, .kiqueLoginImg{
+	.webImg{
 		width:270px !important;
 		height:200px !important;
 	}
@@ -375,8 +375,8 @@ body{
 	width:100%;
 }
 
-/*IMAGE FOR DEFVBODY*/
-.kchatImg, .kProfilerImg, .kiqueLoginImg{
+/*IMAGE FOR DEVBODY*/
+.webImg{
 	width:380px;
 	height:250px;
 }
