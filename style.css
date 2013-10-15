@@ -82,7 +82,9 @@
 	[data-icon]:before { 
 	  font-size:30px !important;
 	}
-
+	.socialIcon{
+		height:43px;
+	}
 	.devHeader .up{
 		padding-top: 10px !important;
 	/*	background-color: blue;*/
