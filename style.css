@@ -135,14 +135,17 @@
 @media (max-width: 760px) {
 	/*DEV BODY IMAGES*/
 	.webImg{
-		width:250px !important;
+		width:270px !important;
 		height:200px !important;
 	}
 	.bulletVideo{
-		width:320px !important;
+		width:300px !important;
 		height:260px !important;	
 	}
-
+	.bcAppVideo{
+		width:300px !important;
+		height:260px !important;	
+	}
 }
 /*Bigger Screen*/
 @media (min-width: 1200px) {
