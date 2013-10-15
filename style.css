@@ -135,11 +135,11 @@
 @media (max-width: 760px) {
 	/*DEV BODY IMAGES*/
 	.webImg{
-		width:270px !important;
+		width:250px !important;
 		height:200px !important;
 	}
 	.bulletVideo{
-		width:340px !important;
+		width:320px !important;
 		height:260px !important;	
 	}
 
